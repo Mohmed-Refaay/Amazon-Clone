@@ -1,0 +1,122 @@
+.header {
+    background-color: #292a2c;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+   
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.header__optionBasket {
+    color: white;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.header__basketCount {
+    margin: 0 10px;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 15px;
+   width: 100%;
+    border: none;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    box-sizing: unset;
+    cursor: pointer;
+    height: 20.9px !important;
+    font-family: inherit;
+    background-color: #cd9042;
+}
+
+@media (max-width: 365px) {
+    .header__logo {
+        width: 70px;
+    } 
+    .header__optionLineOne {
+        font-size: 7px;
+    }
+    .header__optionLineTwo {
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .header__option {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5px;
+    }
+    
+    .header__searchIcon {
+        padding: 5px 1px;
+        box-sizing: unset;
+        cursor: pointer;
+        height: 20.9px !important;
+        font-family: inherit;
+        background-color: #cd9042;
+    }
+    .header__basketCount {
+        margin: 0 5px;
+    }
+    
+   
+    
+    
+    .header__searchInput {
+       
+        padding: 15px 0;
+       
+        
+    }
+    
+    .header__searchIcon {
+        padding: 5px;
+        box-sizing: unset;
+        cursor: pointer;
+        height: 20.9px !important;
+        font-family: inherit;
+        background-color: #cd9042;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+}
+
+.checkoutProduct__img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.checkoutProduct__info {
+    padding-left: 20px;
+
+}
+
+.checkoutProduct__title {
+    text-transform: uppercase;
+
+}
+
+.checkoutProduct__btn {
+    cursor: pointer;
+    margin-top: 15px;   
+    box-sizing: border-box;
+    padding: 5px 7px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #292a2c;
+
+}
